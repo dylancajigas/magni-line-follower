@@ -1,6 +1,8 @@
 # Line Following Warehouse Robot
 Processes images from a Raspberry Pi camera mounted to a Ubiquity Magni robot to navigate around a warehouse to deliver supplies. Written in Python and Robot Operating System (ROS).
 
+![magni image](robot.jpg)
+
 ## Usage
 The Magni robot has four states that it can be in while running automatically. The "home" state, where it waits for a barcode to be scanned (Scanning), a line-following state (Following), a state where it will wait at a designated stop (Halted), and a state to move past stations (Advancing). The robot can also be controlled manually using the attached controller, which pause the line following algorithm.
 
