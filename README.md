@@ -72,3 +72,6 @@ Included is a GUI to help create and save barcodes as images to the computer. Th
 
 ### Barcode Creator Python Script
 This script generates barcodes for the magni robot to scan. It is made for use in a command line interface.
+
+### Camera Bracket
+There is both a STL and a Solidworks file for the bracket used to secure the camera to the body of the magni robot. It can be 3D printed and secured to the front holes of the frame using 4 bolts and nuts.
