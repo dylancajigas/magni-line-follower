@@ -67,7 +67,7 @@ Connecting to the robot will allow some internal topics to be shown using `rosto
 ```
 
 ## Tools
-### Barcode Creator App
+### Barcode Creator Windows Forms App (C#)
 Included is a GUI to help create and save barcodes as images to the computer. There are three main windows that this application has: the default window, batch creation, and a graphical interface. The default window simply asks for the number of stations in the loop, and the stations to stop at. This window has a preview for the barcode generated. The batch creation window allows for multiple different codes to be generated and saved at once, but does not show previews. Lastly, the graphical interface gives a more straightforward and visual way to select which stations to stop at. The stations are separated into a maximum of 5 groups, the details of which can be edited through a settings menu. By clicking on each group, stations can be selected. Clicking the "Add" button will add the selected information to either the default or batch creation window.
 
 ### Barcode Creator Python Script
