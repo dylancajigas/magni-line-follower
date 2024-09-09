@@ -1,0 +1,12 @@
+# Movement configuration
+forwardSpeed: 0.5 # speed when not turning
+angleThresholdForward: 1.0 # amount of allowance of camera angle to keep moving without turning
+angleMultiplier: 10.0 # multiplies angle given by the camera to convert to actual motor output
+turnSpeed: 0.1 # forward speed while turning
+maxTurnSpeed: 0.2 # maximum angular turning speed
+slowTurnSpeed: 0.1 # angular turning speed when nearing correct angle
+slowTurnAngle: 3.0 # the angle to start slow turning
+
+stopProximity: 0.7 # how far away from objects to stop (latency between sensors causes this to be higher than in practice)
+
+passthroughStopTime: 0.5 # how long to stop at a passthrough stop before advancing
