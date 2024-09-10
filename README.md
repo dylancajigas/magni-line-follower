@@ -68,7 +68,7 @@ Connecting to the robot will allow some internal topics to be shown using `rosto
 /joy                         -  displays controller input
 ```
 
-## Tools
+## Extras
 
 ### Barcode Creator Python Script
 This script generates barcodes for the magni robot to scan. It is made for use in a command line interface.
